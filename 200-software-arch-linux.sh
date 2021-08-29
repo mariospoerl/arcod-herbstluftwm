@@ -1,20 +1,8 @@
 #!/bin/bash
 #set -e
 ###############################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxb.com
-# Website	:	https://www.arcolinuxiso.com
-# Website	:	https://www.arcolinuxforum.com
+# Author	:	Mario Spoerl
 ###############################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-###############################################################################
-
 
 ###############################################################################
 #
@@ -55,7 +43,7 @@ func_category() {
 func_category Accessories
 
 list=(
-variety
+#variety
 )
 
 count=0
@@ -72,7 +60,7 @@ func_category Development
 list=(
 atom
 meld
-sublime-text-4
+#sublime-text-4
 )
 
 count=0
@@ -87,8 +75,8 @@ done
 func_category Graphics
 
 list=(
-gimp
-inkscape
+#gimp
+#inkscape
 nomacs
 )
 
@@ -105,7 +93,7 @@ func_category Internet
 
 list=(
 chromium
-qbittorrent
+#qbittorrent
 )
 
 count=0
@@ -120,7 +108,7 @@ done
 func_category Multimedia
 
 list=(
-vlc
+#vlc
 )
 
 count=0
@@ -135,7 +123,7 @@ done
 func_category Office
 
 list=(
-evince
+#evince
 )
 
 count=0

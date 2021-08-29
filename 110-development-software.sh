@@ -1,20 +1,8 @@
 #!/bin/bash
 #set -e
 ###############################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxb.com
-# Website	:	https://www.arcolinuxiso.com
-# Website	:	https://www.arcolinuxforum.com
+# Author	:	Mario Spoerl
 ###############################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-###############################################################################
-
 
 ###############################################################################
 #
@@ -47,15 +35,15 @@ echo "Installation of the development packages"
 ###############################################################################
 
 list=(
-firefox
-sublime-text-4
+#firefox
+#sublime-text-4
 flameshot
 meld
-the_platinum_searcher-bin
-telegram-desktop
-discord
-simplescreenrecorder
-scrot
+#the_platinum_searcher-bin
+#telegram-desktop
+#discord
+#simplescreenrecorder
+#scrot
 )
 
 count=0

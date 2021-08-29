@@ -1,20 +1,8 @@
 #!/bin/bash
 #set -e
 ###############################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxb.com
-# Website	:	https://www.arcolinuxiso.com
-# Website	:	https://www.arcolinuxforum.com
+# Author	:	Mario Spoerl
 ###############################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-###############################################################################
-
 
 ###############################################################################
 #
@@ -71,9 +59,9 @@ list=(
 arcolinux-bin-git
 arcolinux-hblock-git
 arcolinux-root-git
-arcolinux-termite-themes-git
+#arcolinux-termite-themes-git
 arcolinux-tweak-tool-git
-arcolinux-variety-git
+#arcolinux-variety-git
 )
 
 count=0
